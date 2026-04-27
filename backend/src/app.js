@@ -4,6 +4,8 @@ require('dotenv').config();
 
 const authRoutes = require('./routes/auth.routes');
 const departmentRoutes = require('./routes/departments.routes');
+const templateRoutes = require('./routes/templates.routes');
+const fieldRoutes = require('./routes/fields.routes');
 
 const app = express();
 
@@ -18,6 +20,8 @@ app.get('/', (req, res) => {
 
 app.use('/api/auth', authRoutes);
 app.use('/api/departments', departmentRoutes);
+app.use('/api/templates', templateRoutes);
+app.use('/api', fieldRoutes);
 
 app.use((err, req, res, next) => {
   console.error(err);
