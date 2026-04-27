@@ -1,8 +1,12 @@
-# FormBridge (Paper to Digital Form System)
+## Current Features (V1)
 
-## Goal
-Convert paper forms into digital forms using a dynamic system.
-V1 focuses on manual form builder.
+- Authentication (JWT-based)
+- Department Management
+- Form Template Management
+- Dynamic Field Builder (add/edit/delete/reorder fields)
 
-## Current Status
-Project initialization
+## Upcoming
+
+- Dynamic Form Renderer
+- Submission Handling
+- OCR Integration (V2)

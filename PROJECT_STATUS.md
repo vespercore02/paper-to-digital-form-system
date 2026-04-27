@@ -1,12 +1,17 @@
 # Project Status
 
 ## Current Version
-V1 - Setup Phase
+V1 - Core Builder Phase
 
-## Current Focus
-Repository and project setup
+## Completed
+- Authentication module
+- Department module
+- Template module
+- Field builder module
 
-## Next Steps
-- Setup backend
-- Setup frontend
-- Build auth module
+## In Progress
+- None
+
+## Next
+- Dynamic Form Renderer
+- Submission Module
