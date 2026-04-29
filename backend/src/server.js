@@ -11,7 +11,7 @@ const startServer = async () => {
     await connectDB();
     console.log('Database connected');
 
-    await db.sequelize.sync({ alter: true });
+    await db.sequelize.sync();
     console.log('Database synced');
 
     app.listen(PORT, () => {
